@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Core.Models.Activity>
+
+<div class="well" id="next-activities-box">
+    <p>Najbliższe wydarzenia:</p>
+    <ul>
+        @foreach (var activity in @Model)
+        {
+            <li><a asp-controller="Activity" asp-action="Details"
+                    asp-route-activityId="@activity.Id">@activity.Title (@activity.Date)</a></li>
+        }
+    </ul>
+</div>

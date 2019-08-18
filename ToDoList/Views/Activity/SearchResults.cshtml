@@ -1,0 +1,24 @@
+﻿@model ViewsModel.ActivityViewModel
+@{
+    ViewData["Title"] = "Wyniki wyszukiwania";
+}
+
+<h2>Wyniki wyszukiwania dla "@Model.SearchPhrase"</h2>
+
+@foreach (var activity in Model.Activities)
+{
+    <partial name="_Summary" model="activity" />
+}
+
+@for (int i = 1; i < @Model.TotalPages + 1; i++)
+{
+    if (i == Model.CurrentPage)
+    {
+        <a asp-action="SearchResults" asp-route-pageId="@i" asp-route-phrase="@Model.SearchPhrase" class="btn btn-primary">@i</a>
+    }
+    else
+    {
+        <a asp-action="SearchResults" asp-route-pageId="@i" asp-route-phrase="@Model.SearchPhrase" class="btn btn-default">@i</a>
+    }
+
+}

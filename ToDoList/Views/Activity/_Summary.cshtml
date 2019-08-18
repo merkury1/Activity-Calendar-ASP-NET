@@ -1,0 +1,30 @@
+﻿@model ToDoList.Core.Models.Activity
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>@Model.Title</h3>
+    </div>
+    <div class="panel-body">
+        <span>Data: @Model.Date.ToString("dd.MM.yyyy HH:mm")</span>
+        <span style="margin-left:20px;">Priorytet: @Model.Priority.GetEnumDisplayName()</span>
+    </div>
+    <div class="panel-footer">
+        <a class="btn btn-lg"
+           asp-action="Details"
+           asp-route-activityId="@Model.Id">
+            <i class="glyphicon glyphicon-zoom-in">
+            </i>
+        </a>
+        <a class="btn btn-lg"
+           asp-action="Edit"
+           asp-route-activityId="@Model.Id">
+            <i class="glyphicon glyphicon-edit">
+            </i>
+        </a>
+        <a class="btn btn-lg"
+           asp-action="Delete"
+           asp-route-activityId="@Model.Id">
+            <i class="glyphicon glyphicon-trash">
+            </i>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Core\bin\Debug\netcoreapp2.1\ToDoList.Core.deps.json
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Core\bin\Debug\netcoreapp2.1\ToDoList.Core.dll
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Core\bin\Debug\netcoreapp2.1\ToDoList.Core.pdb
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Core\obj\Debug\netcoreapp2.1\ToDoList.Core.csproj.CoreCompileInputs.cache
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Core\obj\Debug\netcoreapp2.1\ToDoList.Core.AssemblyInfoInputs.cache
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Core\obj\Debug\netcoreapp2.1\ToDoList.Core.AssemblyInfo.cs
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Core\obj\Debug\netcoreapp2.1\ToDoList.Core.dll
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Core\obj\Debug\netcoreapp2.1\ToDoList.Core.pdb
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Core\obj\Debug\netcoreapp2.1\ToDoList.Core.csprojAssemblyReference.cache

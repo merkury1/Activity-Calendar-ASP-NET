@@ -1,0 +1,27 @@
+﻿@model ViewsModel.ActivityViewModel
+@{
+    ViewData["Title"] = "To Do List";
+}
+
+<h2>To Do List</h2>
+<div class="alert-info">@Model.Message</div>
+
+@foreach (var activity in Model.Activities)
+{
+    <partial name="_Summary" model="activity" />
+}
+
+@for (int i = 1; i < @Model.TotalPages + 1; i++)
+{
+    if (i == Model.CurrentPage)
+    {
+        <a asp-action="Index" asp-route-pageId="@i" class="btn btn-primary">@i</a>
+    }
+    else
+    {
+        <a asp-action="Index" asp-route-pageId="@i" class="btn btn-default">@i</a>
+    }
+
+}
+<br /><br />
+<a asp-action="Edit" class="btn btn-primary">Dodaj notatkę</a>

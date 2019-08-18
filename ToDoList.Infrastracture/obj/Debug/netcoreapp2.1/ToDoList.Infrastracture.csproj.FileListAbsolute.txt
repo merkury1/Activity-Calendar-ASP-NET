@@ -1,0 +1,14 @@
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\bin\Debug\netcoreapp2.1\ToDoList.Infrastracture.deps.json
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\bin\Debug\netcoreapp2.1\ToDoList.Infrastracture.runtimeconfig.json
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\bin\Debug\netcoreapp2.1\ToDoList.Infrastracture.runtimeconfig.dev.json
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\bin\Debug\netcoreapp2.1\ToDoList.Infrastracture.dll
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\bin\Debug\netcoreapp2.1\ToDoList.Infrastracture.pdb
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\bin\Debug\netcoreapp2.1\ToDoList.Core.dll
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\bin\Debug\netcoreapp2.1\ToDoList.Core.pdb
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\obj\Debug\netcoreapp2.1\ToDoList.Infrastracture.csprojAssemblyReference.cache
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\obj\Debug\netcoreapp2.1\ToDoList.Infrastracture.csproj.CoreCompileInputs.cache
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\obj\Debug\netcoreapp2.1\ToDoList.Infrastracture.AssemblyInfoInputs.cache
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\obj\Debug\netcoreapp2.1\ToDoList.Infrastracture.AssemblyInfo.cs
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\obj\Debug\netcoreapp2.1\ToDoList.Infrastracture.csproj.CopyComplete
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\obj\Debug\netcoreapp2.1\ToDoList.Infrastracture.dll
+C:\Users\mssyp\Desktop\projekty\ToDoList\ToDoList.Infrastracture\obj\Debug\netcoreapp2.1\ToDoList.Infrastracture.pdb

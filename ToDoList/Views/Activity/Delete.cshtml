@@ -1,0 +1,10 @@
+﻿@model ToDoList.Core.Models.Activity
+
+<h2>Usuwanie notatki</h2>
+<div class="alert alert-danger">Czy na pewno usunąć @Model.Title (@Model.Date)?</div>
+<form method="post" asp-controller="Activity" asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="@Model.Id" />
+    <input type="hidden" asp-for="@Model.Title" />
+    <button type="submit" class="btn btn-danger">Tak</button>
+    <a asp-action="index" class="btn btn-default">Nie</a>
+</form>
